@@ -102,7 +102,7 @@ class Baleia extends Animal {
         this.tipo = 'Baleia';
         this.nome = nome;
         this.som = 'uuh uuh';
-        Animal.adicionarAnimal();
+        Animal.adicionaAnimal();
     }
 
     emitirSom() {
@@ -118,7 +118,7 @@ class Baleia extends Animal {
     }
 
     informarTipo() {
-        console.log(`${this.nome} é uma ${tipo}`);
+        console.log(`${this.nome} é uma ${this.tipo}.`);
     }
 }
 
